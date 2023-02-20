@@ -1,0 +1,60 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body
+{
+    display:flex;
+}
+#side_menu
+{
+    width:20vw;
+    height:100vh;
+    position:static;
+    border: 1px black solid;
+}
+#side_menu ul
+{
+    margin: 20% 5%;
+    width: 80%;
+    list-style-type: none;
+}
+#side_menu ul li
+{
+    margin: 10% 0;
+}
+#side_menu ul li
+{
+    text-decoration: none;
+}
+header
+{
+    width:80vw;
+    height: 10vh;
+    border:1px black solid;
+}
+header p
+{
+    width: fit-content;
+    float: right;
+    padding: 3%;
+}
+header img
+{
+    float:right;
+    width:4vw;
+    height:7vh;
+    padding:1%
+}
+button
+{
+    width:15%;
+    height:5%;
+    margin:3% 1%;
+}
+#artisan_pool
+{
+    width:80vw;
+    float:right;
+}

@@ -31,7 +31,7 @@ body{
   text-align:center;
 }
 #login_details form div{
-  margin: 15%;
+  margin: 10%;
   text-align: left;
   display:flex;
   flex-direction: column;
@@ -44,6 +44,6 @@ body{
 }
 button{
   height: 50px;
-  width:70%;
+  width:80%;
   border-radius: 5px;
 }
