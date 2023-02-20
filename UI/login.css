@@ -1,0 +1,49 @@
+*{
+  margin:0px;
+  padding:0px;
+}
+
+body{
+  display:flex;
+  width:100vw;
+  height:100vh;
+}
+
+#login_vector{
+  width:50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#login_vector img{
+  width:70%;
+  height:70%;
+}
+#login_details{
+  width:50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#login_details form{
+  width:80%;
+  height:80%;
+  text-align:center;
+}
+#login_details form div{
+  margin: 15%;
+  text-align: left;
+  display:flex;
+  flex-direction: column;
+}
+#login_details form div input{
+  height: 50px;
+  width:100%;
+  border-radius: 5px;
+  border-color: black;
+}
+button{
+  height: 50px;
+  width:70%;
+  border-radius: 5px;
+}
