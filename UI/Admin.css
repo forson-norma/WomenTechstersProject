@@ -10,7 +10,7 @@ body
 #side_menu
 {
     width:20vw;
-    height:100vh;
+    /* height:100vh; */
     position:static;
     border: 1px black solid;
 }
@@ -50,11 +50,50 @@ header img
 button
 {
     width:15%;
-    height:5%;
-    margin:3% 1%;
+    height:12%;
+    float:right;
 }
 #artisan_pool
 {
     width:80vw;
     float:right;
+}
+#form
+{
+    width:100%;
+    height:60%;
+    border-radius: 5px;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    background-color: aqua;
+    overflow:scroll;
+}
+#form form
+{
+    width:80%;
+    height:60%;
+    border:1px black solid;
+    border-radius:5px;
+}
+#form form div
+{
+  margin: 3%;
+  text-align: left;
+  display:flex;
+  flex-direction: column;
+}
+#form form div input
+{
+  width:80%;
+}
+#form form div textarea
+{
+    width:80%;
+}
+#admin_portal_body
+{
+    height: 90vh;
+    width:100%;
+    overflow: scroll;
 }
