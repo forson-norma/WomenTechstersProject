@@ -3,7 +3,7 @@ function myFunction(){
     var pw =document.forms["loginForm"]["password"].value;
     var em =document.forms["loginForm"]["email"].value;
     if((un!=""&&pw!=""&&em.includes("admin"))){
-        window.location.href="../Framework/Admin.html";
+        window.location.href="Framework/Admin.html";
     }
     else{
         alert("Invalid Username and password");
